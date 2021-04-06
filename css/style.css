@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "OpenSans";
+}
+@font-face{
+    font-family: "OpenSans";
+    src: url(../fonts/OpenSans-Light.ttf) ;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.center{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+header{
+    min-width: 1200px;
+    width: 100%;
+    height: 60px;
+    background-color: #242443;
+}
+header img{
+    margin: 19px;
+}
+.container-banner{
+    min-width: 1200px;
+    width: 100%;
+    height: 557px;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container-banner > .center{
+    height: 100%;
+}
+.form{
+    padding: 10px;
+    top: -15px;
+    position: relative;
+    
+    /*background-clip: padding-box;*//*ISSO É PARA COLOCAR TRANSPARENCIA NA BORDA*/
+
+    background-color: #3A3D75;
+    border-bottom: 8px solid #585bb3;
+    border-right: 8px solid #585bb3;
+    border-top: 3px solid gray;
+    border-left: 3px solid gray;
+
+    float: right;
+    width: 400px;
+    height: calc(100% + 30px);
+    background-color: white;
+}
+.form h2{
+    font-weight: normal;
+    color: gray;
+    font-size: 21px;
+}
+
+.input-container{
+    margin-top: 20px;
+}
+.input-container span, .form p{
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    color: #bbb;
+    font-weight: bold;
+}
+.input-container input{
+    margin-top: 8px;
+    width: 344px;
+    height: 55px;
+    border: 1px solid #CCC;
+}
+.form p{
+    margin: 20px 0;
+}
+input[type=submit]{
+    display: block;
+    margin: 20px auto;
+    color: white;
+    font-size: 25px;
+    width: 280px;
+    height: 56px;
+    background-color: #3A3D75;
+    border-bottom: 5px solid #585bb3;
+    border-right: 5px solid #585bb3;
+    border-top: 0;
+    border-left: 0;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #343461;
+}
+.container-list{
+    padding: 20px;
+    margin-top: 100px;
+    float: left;
+    width: 650px;
+    background-color: #242546b2;
+    list-style-position: inside;
+    color: white;
+}
+.container-list ul li{
+    margin-top: 15px;
+}
+.corpo1{
+    min-width: 1200px;
+    width: 100%;
+    padding: 40px 0;
+    background-color: rgb(148, 148, 148);
+    text-align: center;
+}
+.corpo1 h2{
+    font-weight: normal;
+}
+.corpo1 p{
+    display: inline-block;
+    text-align: justify;
+    width: 698px;
+}
+.corpo1 p:nth-child(2){
+    margin-top: 20px;
+}
+.seta{
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 60px;
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+    background-image: url(../images/arrow.png);
+}
+section{
+    padding: 50px 0;
+    text-align: center;
+}
+.container-33{
+    padding: 0px 40px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 400px;
+    margin-right: -2%; /*COLOQUEI POIS FOI ADD 2% NA DIV CENTER*/
+}
+section h2{
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+.container-33 img{
+    width: 60px;
+}
+section p {
+    text-align: justify;
+}
